@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Shop</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img
+          class="logo"
+          src="images/logo.jpg"
+          alt="duck logo"
+          srcset=""
+                  />
+      </div>
+
+      <div class="nav">
+
+        <a href="#">Rana</a>
+        <a href="#">Raluca</a>
+        <a href="#">Hassen</a>
+        <a href="#">Mirinka</a>
+      </div>
+
+    </header>
+
+    <div class="login">
+      <h2>Login</h2>
+
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+        <br />
+        
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <br />
+        <br />
+
+        <input type="submit" value="Submit" />
+      </form>
+      <br />
+      <label class="container"
+      >
+        <input type="checkbox" checked="checked" /> Remember me 
+        <span class="checkmark"></span>
+      </label>
+    </div>
+
+    <div class="event">
+      <h2>Event</h2>
+      <div class="sign-in">
+        <button type="button" onclick="alert('Sign in with facebook')">
+          Sign in with Facebook
+        </button>
+        <button type="button" onclick="alert('Sign in with Google')">
+          Sign in with Google
+        </button>
+      </div>
+    </div>
+
+    <div class="video">
+      <h2>Video</h2>
+      <iframe
+        src="https://www.youtube.com/embed/39YqCLYELnM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="calendar">
+        <h1>Calendar</h1>
+
+        <div class="month">      
+        <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>
+            October<br>
+            <span style="font-size:18px">2021</span>
+            </li>
+        </ul>
+        </div>
+
+        <ul class="weekdays">
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+        <li>Su</li>
+        </ul>
+
+        <ul class="days">  
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li><span class="active">21</span></li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li>31</li>
+        </ul>
+
+    </div>
+    
+  </body>
+</html>
